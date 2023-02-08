@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.1 on win32)" generated="20230207 21:04:20.858" rpa="false" schemaversion="3">
+<suite id="s1" name="TC0001" source="C:\Users\vaidhyamegha\PycharmProjects\TestProject\Automation\TC0001.robot">
+<test id="s1-t1" name="Bimigrator" line="9">
+<kw name="insideBimigrator">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230207 21:04:21.055" level="INFO">Opening browser 'chrome' to base url 'http://localhost:4200/'.</msg>
+<status status="PASS" starttime="20230207 21:04:21.055" endtime="20230207 21:04:24.440"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230207 21:04:24.440" endtime="20230207 21:04:24.556"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230207 21:04:34.557" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20230207 21:04:24.556" endtime="20230207 21:04:34.557"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230207 21:04:34.558" endtime="20230207 21:04:36.680"/>
+</kw>
+<status status="PASS" starttime="20230207 21:04:21.054" endtime="20230207 21:04:36.680"/>
+</kw>
+<status status="PASS" starttime="20230207 21:04:21.054" endtime="20230207 21:04:36.680"/>
+</test>
+<status status="PASS" starttime="20230207 21:04:20.859" endtime="20230207 21:04:36.682"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TC0001">TC0001</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
