@@ -15,10 +15,10 @@ Validation Test
 
      title should be  Bi-Migrator
      ${input_txt}    set variable
-     Element Should Be Enabled  ${input_txt}
-     Element Should Be Visible  ${input_txt}
+     Element Should Be Enabled  ${input_txt}    xpath://*[@id="username"]
+     Click Element     xpath://*[@id="username"]/option[@value="true"]
 
-     Input text
+
 
      Clear element text
 

@@ -8,7 +8,7 @@ ${browser}    chrome
 *** Test Cases ***
 Bimigrator
      insideBimigrator
-****** keywords ***
+*** Keywords ***
 insideBimigrator
     Open Browser    ${url}   ${browser}
      Maximize Browser Window

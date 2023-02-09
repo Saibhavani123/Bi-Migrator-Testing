@@ -1,7 +1,7 @@
-****** Settings ***
+*** Settings ***
 Library      SeleniumLibrary
 
-****** Variables ***
+*** Variables ***
 
 
 ****** Test Cases ***
